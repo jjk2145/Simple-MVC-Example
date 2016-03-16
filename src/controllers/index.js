@@ -16,7 +16,7 @@ var defaultDataDog = {
 	name: "unknown",
 	breed: "unknown",
 	age: 0
-}
+};
 
 //object for us to keep track of the last Cat we made and dynamically update it sometimes
 var lastAddedCat = new Cat(defaultDataCat);
