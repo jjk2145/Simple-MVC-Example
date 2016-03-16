@@ -12,7 +12,6 @@ var DogSchema = new mongoose.Schema({
     
     breed: {
         type: String,
-		trim: true,
         required: true
     },
 	
