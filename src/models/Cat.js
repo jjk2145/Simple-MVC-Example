@@ -66,7 +66,7 @@ CatSchema.methods.sayName = function() {
 //They will be able to call this function, but they won't be able to reference any instance variables of that object (or at least accurately)
 //These are used when you want a public function you can call to do a task, not a method that uses or returns instance variables
 //That is, these are used when you don't need an object, just a function to call.
-CatSchema.statics.findByName = function(name, callback) {
+CatSchema.statics.findByNameCat = function(name, callback) {
 
     var search = {
         name: name

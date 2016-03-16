@@ -33,7 +33,7 @@ DogSchema.methods.sayName = function() {
     console.log(this.name);
 };
 
-DogSchema.statics.findByName = function(name, callback) {
+DogSchema.statics.findByNameDog = function(name, callback) {
 
     var search = {
         name: name,
