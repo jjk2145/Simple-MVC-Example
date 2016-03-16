@@ -35,9 +35,7 @@ DogSchema.methods.sayName = function() {
 DogSchema.statics.findByNameDog = function(name, callback) {
 
     var search = {
-        name: name,
-		breed: breed,
-		age: age
+        name: name
     };
 
     return DogModel.findOne(search, callback);
