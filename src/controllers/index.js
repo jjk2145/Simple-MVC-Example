@@ -203,7 +203,7 @@ var setNameDog = function(req, res) {
     var dogData = {
         name: name,
         breed: req.body.breed,
-		age: reg.body.age
+		age: req.body.age
     };
 
     //create a new object of CatModel with the object to save
