@@ -8,10 +8,6 @@ html(lang="en")
     a(href="/page2") Page 2
     a(href="/page3") Page 3
     a(href="/getNameCat") Show Cat Name
-	a(href="/getNameDog") Show Dog Name
     ul
       each val in cats
         li= val.name + " has " + val.bedsOwned + " beds"
-	ul
-	  each val in dogs
-	    li= val.name + " is a " + val.breed + " who is " + val.age + " years old"
